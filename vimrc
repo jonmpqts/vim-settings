@@ -10,3 +10,4 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set backspace=2
+set autoread
