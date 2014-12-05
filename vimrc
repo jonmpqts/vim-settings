@@ -11,5 +11,10 @@ set shiftwidth=4
 set expandtab
 set backspace=2
 set autoread
+
+if has("gui_macvim")
+    set transparency=15
+endif
+
 map <C-n> :NERDTreeToggle<CR>
 cd ~
