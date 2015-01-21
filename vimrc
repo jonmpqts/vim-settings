@@ -11,6 +11,7 @@ set shiftwidth=4
 set expandtab
 set backspace=2
 set autoread
+set ruler
 
 if has("gui_macvim")
     set transparency=15
