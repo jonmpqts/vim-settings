@@ -12,6 +12,7 @@ set expandtab
 set backspace=2
 set autoread
 set ruler
+filetype plugin on
 
 if has("gui_macvim")
     set transparency=15
