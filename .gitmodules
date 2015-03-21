@@ -25,3 +25,6 @@
 [submodule "bundle/vim-instant-markdown"]
 	path = bundle/vim-instant-markdown
 	url = git@github.com:suan/vim-instant-markdown.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
