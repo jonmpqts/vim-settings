@@ -14,6 +14,8 @@ set autoread
 set ruler
 filetype plugin on
 
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 if has("gui_macvim")
     set transparency=15
 endif
