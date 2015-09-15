@@ -15,6 +15,8 @@ set ruler
 filetype plugin on
 
 autocmd Filetype gitcommit setlocal spell textwidth=72
+autocmd Filetype javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd Filetype json setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 if has("gui_macvim")
     set transparency=15
