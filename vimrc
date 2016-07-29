@@ -22,5 +22,6 @@ if has("gui_macvim")
     set transparency=15
 endif
 
+let g:go_fmt_command = "goimports"
 map <C-n> :NERDTreeToggle<CR>
 cd ~
